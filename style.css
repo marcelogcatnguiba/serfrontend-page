@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+:root
+{
+    --art-titulo-font-size: 24px;
+    --art-texto-font-size: 16px;
+    --art-texto-font-line-height: 16px
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho
+{
+    background-image: url(./assets/imgs/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    padding: 3% 5% 0 0;
+}
+
+.nav__btn
+{
+    font-size: 12px;
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    background-color: #313030;
+    opacity: 0.8;
+    padding: 1% 2%;
+}
+
+.sec__titulo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    text-shadow: #1d1c1c 2px 0 2px;
+}
+
+.sec__titulo__h1
+{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 10%;
+}
+
+.sec__titulo__p
+{
+    font-size: 12px;
+    margin-bottom: 8%;
+    color: white;
+
+    padding: 1%;
+    background-color: #313030;
+    opacity: 0.9;
+    border-bottom: solid 2px white;
+}
+
+.conteudo__principal
+{
+    padding-top: 1%;
+    background-color: #887e7c;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.artigo
+{
+    padding: 1%;
+    background-color: white;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.artigo__titulo
+{
+    font-size: var(--art-titulo-font-size);
+    background-color: #eee;
+    border-bottom: solid 3px #eeeeee2c;
+
+    padding-left: 1%;
+}
+
+.artigo__texto
+{
+    font-size: var(--art-texto-font-size);
+    line-height: var(--art-texto-font-line-height);
+}
+
+.artigo__link
+{
+    padding: 1%;
+    background-color: #ccc;
+    
+    border-radius: 7px;
+    width: 100px;
+}
+
+.rodape
+{
+    font-weight: 600;
+    color: #fff;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.rodape__texto
+{
+    text-shadow: #1d1c1c 1px 0 5px;
+}
